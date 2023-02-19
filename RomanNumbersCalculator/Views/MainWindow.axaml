@@ -7,7 +7,7 @@
         x:Class="RomanNumbersCalculator.Views.MainWindow"
 		Height="300"
 		Width="200"
-		Background="LightYellow"
+		Background="LightBlue"
         Icon="/Assets/avalonia-logo.ico"
         Title="RomanNumbersCalculator">
 
@@ -47,7 +47,7 @@
 				<Button Name="buttonCE" Content="CE" Command="{Binding ResetCommand}" Grid.Row="3" Grid.Column="1" Classes="h1">CE</Button>
 				<Button Name="buttonDiv" Content="/" Command="{Binding DivCommand}" Grid.Row="3" Grid.Column="2" Classes="h1">/</Button>
 			</Grid>
-			<Button Name="buttonResult" Content="=" Command="{Binding CalculateCommand}" Height="235" Width="50" Grid.Row="0" Margin="2" Grid.Column="1">=</Button>
+			<Button Name="buttonResult" Content="=" Command="{Binding CalculateCommand}" Height="235" Width="50" Grid.Row="0" Margin="2" Grid.Column="1" VerticalContentAlignment="Center" HorizontalContentAlignment="Center">=</Button>
 		</Grid>
 	</Grid>
 </Window>
